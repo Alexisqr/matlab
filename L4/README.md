@@ -27,3 +27,6 @@ figure, imshow(img3), title('Coins');
 ```
 
 <img width="677" height="384" alt="image" src="https://github.com/user-attachments/assets/2428ca8e-404b-41cd-831b-ff83e34647ab" />
+
+### Завдання 2
+
