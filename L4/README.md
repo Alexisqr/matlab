@@ -220,8 +220,6 @@ for i = 1:length(images)
 end
 ```
 
-<img width="684" height="367" alt="image" src="https://github.com/user-attachments/assets/f8813c77-3f80-4db4-8ef2-17fad7e5ee02" />
-
 <img width="856" height="532" alt="image" src="https://github.com/user-attachments/assets/f5889b40-8327-44b9-9852-dd9c1fde78cb" />
 
 Було виявлено, що результат фільтрації зміщений через невідповідність розташування центру гаусового фільтра і частотного представлення (fft2). Для виправлення додано ifftshift перед обчисленням спектра фільтра. Це узгодило центр фільтра з частотною областю, усунуло зміщення та забезпечило коректне симетричне розмиття.
